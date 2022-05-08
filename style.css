@@ -1,0 +1,1154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;
+    background: transparent;
+    align-items: center;
+    z-index: 1;
+}
+.nav-bar-left ul{
+    display: flex;
+    width: 70vw;
+}
+.nav-bar-left ul li{
+    padding: 0 0 0 5vw;
+    list-style: none;
+}
+.nav-bar-left ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.679);
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-bar-left ul li a:hover{
+    color: rgba(40, 23, 15, 0.593);
+}
+.nav-bar-right{
+    display: flex;
+    width: 30vw;
+    justify-content: right;
+    align-items: center;
+}
+.nav-bar-right-left input{
+    padding: 0.5vh 3vw 0.5vh 0.25vw;
+    margin-right: 0.25vw;
+    border-radius: 100px;
+    border: 2px solid black;
+    background: transparent;
+}
+.nav-bar-right-left i{
+    position: absolute;
+    right: 7vw;
+    top: 2.4vh;
+    cursor: pointer;
+}
+.nav-bar-right-right{
+    background: url("logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50px;
+    margin-left: 2vw;
+}
+.nav-bar-right-right-drop{
+    display: none;
+}
+.nav-bar-right-right:hover .nav-bar-right-right-drop{
+    display: block;
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+    top: 7vh;
+    right: 1vw;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    text-align: center;
+}
+.nav-bar-right-right:hover .nav-bar-right-right-drop b{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+}  
+
+
+
+
+.firstpage{
+    height: 100vh;
+    background: url("background.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 12vh;
+    width: 30vw;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.box:hover{
+    z-index: 1;
+    background-color: rgb(216, 198, 252);
+    transform-style: preserve-3d;
+    rotate: 360;
+    animation-duration: 2s;
+}
+.firstpage-reviews-one{
+    transform:rotateZ(10deg);
+    top: 16vh;
+    right: 58vw;
+    background-color: rgba(173, 216, 230, 0.468);
+}
+.firstpage-reviews-two{
+    transform:rotateZ(350deg);
+    top: 16vh;
+    right: 40vw;
+    background-color: rgba(240, 128, 128, 0.379);
+}.firstpage-reviews-three{
+    transform:rotateZ(40deg);
+    top: 27vh;
+    right: 10vw;
+    background-color: rgba(224, 255, 255, 0.47);
+}.firstpage-reviews-four{
+    transform:rotateZ(40deg);
+    top: 61vh;
+    right: 60vw;
+    background-color: rgba(250, 250, 210, 0.516);
+}.firstpage-reviews-five{
+    transform:rotateZ(10deg);
+    top: 46vh;
+    right: 40vw;
+    background-color: rgba(211, 211, 211, 0.366);
+}.firstpage-reviews-six{
+    transform:rotateZ(0deg);
+    top: 31vh;
+    right: 25vw;
+    background-color: rgba(144, 238, 144, 0.5);
+}.firstpage-reviews-seven{
+    transform:rotateZ(20deg);
+    top: 46vh;
+    right: 15vw;
+    background-color: rgba(32, 178, 171, 0.502);
+}.firstpage-reviews-eight{
+    transform:rotateZ(340deg);
+    top: 70vh;
+    right: 11vw;
+    background-color: rgba(249, 137, 137, 0.424);
+}.firstpage-reviews-nine{
+    transform:rotateZ(320deg);
+    top: 61vh;
+    right: 30vw;
+    background-color: rgba(238, 130, 238, 0.394);
+}.firstpage-reviews-ten{
+    transform:rotateZ(290deg);
+    top: 51vh;
+    right: 65vw;
+    background-color: rgba(0, 0, 139, 0.181);
+}
+.firstpage-reviews-eleven{
+    transform:rotateZ(30deg);
+    top: 66vh;
+    right: 40vw;
+    background-color: rgba(175, 222, 93, 0.319);
+}
+.firstpage-reviews-twelve{
+    transform:rotateZ(0deg);
+    top: 31vh;
+    right: 58vw;
+    background-color: rgba(64, 224, 208, 0.444);
+}
+.human-photo{
+    width: 10vh;
+    height: 10vh;
+}
+.one-photo{
+    background: url("utkarsh.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.two-photo{
+    background: url("shaurya.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.three-photo{
+    background: url("anshul.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.four-photo{
+    background: url("divy.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.five-photo{
+    background: url("rishi.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.six-photo{
+    background: url("lavnish.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.seven-photo{
+    background: url("priyanka.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.eight-photo{
+    background: url("mayank.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.nine-photo{
+    background: url("noushil.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.ten-photo{
+    background: url("logo.png");
+    background-size: cover;
+    background-position: center;
+}
+.eleven-photo{
+    background: url("yash.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.twelve-photo{
+    background: url("kota.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.one-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.firstpage-photo-circle div{
+    height: 30vh;
+    width: 30vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 150px;
+}
+.firstpage-circle-one{
+    top: 7vh;
+    right: 7vw;
+    background: url("logo.png");
+}
+.firstpage-circle-two{
+    right: 7vw;
+    top: 65vh;
+    background: url("logo.png");
+}
+.firstpage-circle-three{
+    top: 7vh;
+    right: 77vw;
+    background: url("logomirror.png");
+}
+.firstpage-circle-four{
+    top: 65vh;
+    right: 77vw;
+    background: url("logomirror.png");
+}
+
+
+
+
+.secondpage{
+    height: 100vh;
+    background: url("backgroundmirror.png");
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-para{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.skill-para{
+    font-size: 10vh;
+}
+.skill-para-one{
+    animation-name: change-color-one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    text-decoration-line: line-through;
+}
+@keyframes change-color-one{
+    0% {color: red;}
+    40% {color: blue;}
+    20% {color: green;}
+    10% {color: pink;}
+    50% {color: white;}
+    70%{color: cadetblue;}
+    60% {color: violet;}
+    100% {color: brown;}
+    90% {color: yellow;}
+    30% {color: black;}
+    80% {color: aqua;}
+}
+.skill-para-two{
+    animation-name: change-color-two;
+    animation-duration: 11s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+}
+@keyframes change-color-two{
+    90% {color: red;}
+    50% {color: blue;}
+    10% {color: green;}
+    30% {color: yellow;}
+    40% {color: pink;}
+    70% {color: white;}
+    60% {color: violet;}
+    0% {color: brown;}
+    20% {color: black;}
+    100% {color: aqua;}
+    80%{color: cadetblue;}
+}.skill-para-three{
+    animation-name: change-color-three;
+    animation-duration: 9s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+}
+@keyframes change-color-three{
+    100% {color: red;}
+    70% {color: blue;}
+    30% {color: green;}
+    60% {color: yellow;}
+    0% {color: pink;}
+    10% {color: white;}
+    90% {color: violet;}
+    20% {color: brown;}
+    80% {color: black;}
+    40% {color: aqua;}
+    50%{color: cadetblue;}
+}.skill-para-four{
+    animation-name: change-color-four;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+}
+@keyframes change-color-four{
+    40% {color: red;}
+    10% {color: blue;}
+    100% {color: green;}
+    90% {color: yellow;}
+    30% {color: pink;}
+    80% {color: white;}
+    60% {color: violet;}
+    50% {color: brown;}
+    20% {color: black;}
+    70% {color: aqua;}
+    0%{color: cadetblue;}
+}.skill-para-five{
+    animation-name: change-color-five;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+}
+@keyframes change-color-five{
+    0% {color: red;}
+    40% {color: blue;}
+    90% {color: green;}
+    20% {color: yellow;}
+    10% {color: pink;}
+    100% {color: white;}
+    50% {color: violet;}
+    30% {color: brown;}
+    60% {color: black;}
+    80% {color: aqua;}
+    70%{color: cadetblue;}
+}.skill-para-six{
+    animation-name: change-color-six;
+    animation-duration: 11s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    text-decoration-line: line-through;
+}
+@keyframes change-color-six{
+    50% {color: red;}
+    100% {color: blue;}
+    90% {color: green;}
+    80% {color: yellow;}
+    40% {color: pink;}
+    0% {color: white;}
+    70% {color: violet;}
+    70% {color: brown;}
+    30% {color: black;}
+    20% {color: aqua;}
+    10%{color: cadetblue;}
+}
+.glass{
+    width: 80vw;
+    height: 75vh;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 117.5vh;
+    right: 11vw;
+    z-index: 1;
+}
+.glass:hover{
+    background: none;
+    backdrop-filter: blur(0);
+}
+.skill-box{
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+.skill-firstboxpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.skill-box-one{
+    background: url("c++.png");
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    animation-name: skill-box-one-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+}
+@keyframes skill-box-one-animation{
+    0%{
+        position:inherit;
+    }
+    0.01%{
+        position: absolute;
+        top: 117vh;
+        right: 78vw;
+    }
+    /* 10%{
+        position: absolute;
+        top: 122.5vh;
+        right: 71.94vw;
+    }
+    20%{
+        position: absolute;
+        top: 128vh;
+        right: 65.28vw;
+    }
+    30%{
+        position: absolute;
+        top: 133.5vh;
+        right: 58.62vw;
+    }
+    40%{
+        position: absolute;
+        top: 139vh;
+        right: 51.96vw;
+    }
+    50%{
+        position: absolute;
+        top: 144.5vh;
+        right: 45.3vw;
+    }
+    60%{
+        position: absolute;
+        top: 150vh;
+        right: 38.64vw;
+    }
+    70%{
+        position: absolute;
+        top: 155.5vh;
+        right: 31.98vw;
+    }
+    80%{
+        position: absolute;
+        top: 161vh;
+        right: 25.32vw;
+    }
+    90%{
+        position: absolute;
+        top: 166.5vh;
+        right: 18.66vw;
+    } */
+    100%{
+        position: absolute;
+        top: 172vh;
+        right: 12vw;
+    }
+}
+.skill-box-two{
+    background: url("html.png");
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    animation-name: skill-box-two-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+}
+@keyframes skill-box-two-animation{
+    0%{
+        position: inherit;
+    }
+    0.01%{
+        position: absolute;
+        top: 171vh;
+        right: 78vw;
+    }
+    /* 10%{
+        position: absolute;
+        top: 166.5vh;
+        right: 71.4vw;
+    }
+    20%{
+        position: absolute;
+        top: 161vh;
+        right: 64.8vw;
+    }
+    30%{
+        position: absolute;
+        top: 155.5vh;
+        right: 58.2vw;
+    } */
+    /* 40%{
+        position: absolute;
+        top: 150vh;
+        right: 51.6vw;
+    } */
+    /* 50%{
+        position: absolute;
+        top: 144.5vh;
+        right: 45vw;
+    } */
+    /* 60%{
+        position: absolute;
+        top: 139vh;
+        right: 38.4vw;
+    } */
+    /* 70%{
+        position: absolute;
+        top: 133.5vh;
+        right: 31.8vw;
+    }
+    80%{
+        position: absolute;
+        top: 128vh;
+        right: 25.2vw;
+    }
+    90%{
+        position: absolute;
+        top: 122.5vh;
+        right: 18.6vw;
+    } */
+    100%{
+        position: absolute;
+        top: 117vh;
+        right: 12vw;
+    }
+}
+.skill-secondboxpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skill-box-three{
+    background: url("css.png");
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    margin: 2vh 1vw;
+    animation-name: skill-box-three-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes skill-box-three-animation{
+    0%{
+        position: inherit;
+    }
+    0.01%{
+        position: absolute;
+        top: 118vh;
+        right: 12vw;
+    }
+    100%{
+        position: absolute;
+        top: 117vh;
+        right: 77vw;
+    }
+}
+.skill-box-four{
+    background: url("js.png");
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    animation-name: skill-box-four-animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes skill-box-four-animation{
+    0%{
+        position: inherit;
+    }
+    0.01%{
+        position: absolute;
+        top: 172vh;
+        right: 12vw;
+    }
+    100%{
+        position: absolute;
+        top: 118vh;
+        right: 12vw;
+    }
+}
+
+
+
+
+.thirdpage{
+    height: 100vh;
+    background: url("background.png");
+    background-size: cover;
+    background-position: center;   
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.Road_Map{
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 18vh;
+    width: 18vh;
+    z-index: 5;
+}
+.Road_Map-one{
+    position: absolute;
+    top: 220vh;
+    left: 18vw;
+    background: url("c++.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-one:hover{
+    background: url("tick.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-two{
+    position: absolute;
+    top: 210vh;
+    left: 45vw;
+    background: url("html.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-two:hover{
+    background: url("tick.png");
+    background-size: cover;
+    background-position: center; 
+}
+.Road_Map-three{
+    position: absolute;
+    top: 222vh;
+    right: 20vw;
+    background: url("css.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-three:hover{
+    background: url("tick.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-four{
+    position: absolute;
+    top: 265vh;
+    right: 20vw;
+    background: url("js.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-four:hover{
+    background: url("wait.png");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-five{
+    position: absolute;
+    top: 275vh;
+    right: 45vw;
+    background: url("DSA.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.Road_Map-five:hover{
+    background: url("wait.png");
+    background-size: cover;
+    background-position: center;  
+}
+.Road_Map-six{
+    position: absolute;
+    top: 260vh;
+    right: 65vw;
+    background: url("tailwind.png");
+    background-size: cover;
+    background-position: center;  
+}
+.Road_Map-six:hover{
+    background: url("wrong.png");
+    background-size: cover;
+    background-position: center;    
+}
+.Road_Map-seven{
+    position: absolute;
+    top: 230vh;
+    left: 30vw;
+    background: url("react.png");
+    background-size: cover;
+    background-position: center;    
+}
+.Road_Map-seven:hover{
+    background: url("wrong.png");
+    background-size: cover;
+    background-position: center;  
+}
+.Road_Map-eight{
+    position: absolute;
+    top: 240vh;
+    right: 30vw;
+    background: url("nodejs.png");
+    background-size: cover;
+    background-position: center;   
+}
+.Road_Map-eight:hover{
+    background: url("wrong.png");
+    background-size: cover;
+    background-position: center;    
+}
+.Road_Map-nine{
+    position: absolute;
+    top: 245vh;
+    left: 45vw;
+    background: url("Blockchainlogo.webp");
+    background-size: cover;
+    background-position: center;   
+}
+.Road_Map-nine:hover{
+    background: url("wrong.png");
+    background-size: cover;
+    background-position: center;      
+}
+.curvelineone{
+    width: 20vw;
+    height: 10vh;
+    border: 5px solid rgb(109, 245, 109);
+    border-color: rgb(109, 245, 109) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 218vh;
+    left: 26.5vw;
+    transform: rotateZ(345deg);
+}
+.curvelinetwo{
+    width: 18vw;
+    height: 7vh;
+    border: 5px solid rgb(109, 245, 109);
+    border-color: rgb(109, 245, 109) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 220vh;
+    left: 53vw;
+    transform: rotateZ(15deg);
+}
+.curvelinethree{
+    width: 16vw;
+    height: 10vh;
+    border: 5px solid rgb(249, 224, 87);
+    border-color: rgb(249, 224, 87) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 247.5vh;
+    left: 67vw;
+    transform: rotateZ(90deg);
+}
+.curvelinefour{
+    width: 17vw;
+    height: 10vh;
+    border: 5px solid rgb(249, 224, 87);
+    border-color: rgb(249, 224, 87) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 273vh;
+    left: 54vw;
+    transform: rotateZ(170deg);
+}
+.curvelinefive{
+    width: 12vw;
+    height: 5vh;
+    border: 5px solid rgb(234, 51, 35);
+    border-color: rgb(234, 51, 35) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 272vh;
+    left: 34.75vw;
+    transform: rotateZ(200deg);
+}
+.curvelinesix{
+    width: 9vw;
+    height: 10vh;
+    border: 5px solid rgb(234, 51, 35);
+    border-color: rgb(234, 51, 35) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 248vh;
+    left: 28vw;
+    transform: rotateZ(280deg);
+}
+.curvelineseven{
+    width: 25vw;
+    height: 20vh;
+    border: 5px solid rgb(234, 51, 35);
+    border-color: rgb(234, 51, 35) transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 235vh;
+    left: 38vw;
+    transform: rotateZ(10deg);
+}
+.curvelineeight{
+    width: 9vw;
+    height: 10vh;
+    border: 5px solid rgb(234, 51, 35);
+    border-color: rgb(234, 51, 35)transparent transparent transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 250vh;
+    left: 53vw;
+    transform: rotateZ(160deg);
+}
+
+
+
+
+
+.forthpage{
+    height: 100vh;
+    background: url("backgroundmirror.png");
+    background-size: cover;
+    background-position: center;  
+}
+.forthpagebox{
+    padding: 10vh 9vw;
+    display: flex;
+    flex-direction: column;
+}
+.forthpageboxtop{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+    height: 55vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.school-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.school-photo{
+    background: url("school.jpeg");
+    height: 70%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px grey;
+}
+.school-photo:active{
+    box-shadow: 0px 0px white;
+}
+.school b{
+    font-size: 22px;
+}
+.college{
+    height: 55vh;
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.college-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.college-photo{
+    background: url("college.jpeg");
+    height: 70%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px grey;
+    animation-name: college-photo-animation;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes college-photo-animation{
+    0%{
+        background: url("college1.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    0.01%{
+        background: url("college1.jpeg");
+        background-size: cover;
+        background-position: center; 
+    }
+    50%{
+        background: url("college2.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    75%{
+        background: url("college3.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background: url("college1.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+.college-photo:active{
+    box-shadow: 0px 0px white;
+}
+.college b{
+    font-size: 22px;
+}
+.forthpagebottom{
+    height: 15vh;
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coding{
+    background-color: rgba(255, 255, 255, 0.297);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+.coding p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.coding b{
+    font-size: 22px;
+    margin-bottom: 1vh;
+}
+.coding-photo{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 50% ;
+    animation-name: colorfull;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes colorfull{
+    0%{
+        background-color: white;
+    }
+    33%{
+        background-color: rgb(246, 202, 208);
+    }
+    66%{
+        background-color: rgb(247, 219, 186);
+    }
+    100%{
+        background-color: white;
+    }
+}
+.coding-photo-one img{
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 1vw;
+}
+.coding-photo-two img{
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 1vw;
+}
+.coding-photo-three img{
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 1vw;
+}
+
+
+
+
+.fifthpage{
+    height: 100vh;
+    background: url("background.png");
+    background-size: cover;
+    background-position: center;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.fifthpagebox{
+    height: 85%;
+    width: 90%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+.fifthpage-left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.fifthpage-left b{
+    font-size: 25px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+#email{
+    width: 15vw;
+    padding: 1vh;
+    border-radius: 100px;
+    background-color: rgba(223, 245, 252, 0.255);
+    margin-bottom: 5vh;
+    border: 1px solid black;
+}
+#text{
+    width: 25vw;
+    padding: 1vh;
+    border-radius: 10px;
+    height: 20vh;
+    background-color: rgba(223, 245, 252, 0.255);
+    margin-bottom: 5vh;
+}
+.checkbox{
+    margin-bottom: 2vh;
+    color: rgba(0, 0, 0, 0.7);
+}
+.checkbox input{
+    cursor: pointer;
+}
+#button{
+    width: 5vw;
+    padding: 0.5vh 1vw;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    border: 1px solid black;
+    box-shadow: 1px 1px gray;
+    cursor: pointer;
+}
+#button:active{
+    box-shadow: 0 0 transparent;
+}
+.fifthpage-right{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17vh;
+}
+.fifthpage-right b{
+    font-size: 25px;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+}
+.fifthpage-right img{
+    width: 2vw;
+    height: 2vh;
+}
+.fifthpage-right p{
+    margin-top: 1vh;
+}
+.fifthpage-bottom{
+    position: absolute;
+    top: 480vh;
+    font-size: 100px;
+    background: -webkit-linear-gradient(yellow, orange, red, darkred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

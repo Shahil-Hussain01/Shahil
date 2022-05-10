@@ -229,6 +229,7 @@
     background: url("udit.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
 }
 .eleven-photo{
     background: url("yash.jpeg");
